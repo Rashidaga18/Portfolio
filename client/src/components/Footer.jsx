@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <footer className="w-full py-10 bg-[#020617] text-gray-300 text-center">
 
-      {/* Social Icons */}
+      {}
       <div className="flex justify-center gap-6 text-2xl mb-6">
 
-        {/* YouTube */}
+        {}
         <a 
           href="https://www.youtube.com/@__learnwithrashi" 
           target="_blank" 
@@ -18,7 +18,7 @@ export default function Footer() {
           <Youtube size={26} />
         </a>
 
-        {/* GitHub */}
+        {}
         <a 
           href="https://github.com/Rashidaga18" 
           target="_blank" 
@@ -28,7 +28,7 @@ export default function Footer() {
           <Github size={26} />
         </a>
 
-        {/* LinkedIn */}
+        {}
         <a 
           href="https://www.linkedin.com/in/rashi-daga-185r" 
           target="_blank" 
@@ -40,7 +40,7 @@ export default function Footer() {
 
       </div>
 
-      {/* Copyright */}
+      {}
       <p className="text-xs text-gray-500">
         © 2024 Rashi Daga. All Rights Reserved.
       </p>

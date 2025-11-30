@@ -1,11 +1,10 @@
 import React from "react";
-import profilePic from "../assets/profile.jpg"; // Update path if needed
-
+import profilePic from "../assets/profile.jpg"; 
 export default function HeroSection() {
   return (
     <section className="w-full flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 bg-[#020617] text-white">
       
-      {/* LEFT CONTENT */}
+      {}
       <div className="flex-1 space-y-6">
         <h1 className="text-4xl md:text-6xl font-bold">
           Hi, I'm <span className="text-purple-400">Rashi Daga</span>
@@ -15,7 +14,7 @@ export default function HeroSection() {
           A Full Stack Developer & Content Creator
         </p>
 
-        {/* BUTTONS */}
+        {}
         <div className="flex gap-6 mt-6">
           <button className="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-700 transition-all shadow-[0_0_25px_#b026ff]">
             View My Work
@@ -27,7 +26,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* RIGHT IMAGE */}
+      {}
       <div className="mt-10 md:mt-0 flex-1 flex justify-center">
         <div className="relative">
           <img
