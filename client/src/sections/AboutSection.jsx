@@ -34,7 +34,7 @@ export default function AboutSection() {
         <p className="text-gray-400 text-sm">Creative Process</p>
       </div>
 
-      {/* CENTER CARD */}
+      {}
       <div className="w-full max-w-xl bg-[#0a0f1f]/80 backdrop-blur-xl border border-purple-500/20 rounded-3xl shadow-[0_0_40px_#7c3aed] p-10 text-center">
 
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
