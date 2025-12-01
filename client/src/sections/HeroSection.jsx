@@ -35,7 +35,7 @@ export default function HeroSection() {
             className="
               w-64 h-64 md:w-80 md:h-80 
               object-cover rounded-full 
-              brightness-110 contrast-125 saturate-125
+              brightness-1 contrast-124 saturate-125
               shadow-[0_0_60px_#b026ff80]
             "
           />
