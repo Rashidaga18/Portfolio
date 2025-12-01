@@ -19,7 +19,7 @@ export default function SkillsSection() {
   return (
     <section className="min-h-screen w-full bg-[#020617] text-white px-4 py-20">
 
-      {/* Heading */}
+      {}
       <h2 className="text-center text-4xl md:text-5xl font-bold text-purple-300">
         My Toolkit
       </h2>
@@ -27,7 +27,7 @@ export default function SkillsSection() {
         A collection of technologies and tools I use to bring ideas to life.
       </p>
 
-      {/* Grid */}
+      {}
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {skills.map((skill) => (
           <div

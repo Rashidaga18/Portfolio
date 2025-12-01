@@ -4,6 +4,7 @@ import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
 import Footer from "./components/Footer";
 import SkillsSection from "./sections/SkillsSection";
+import ExperienceSection from "./sections/ExperienceSection";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
 
       <Routes>
 
-        {/* HOME PAGE — Hero + Footer */}
+        {}
         <Route
           path="/"
           element={
@@ -23,11 +24,14 @@ function App() {
           }
         />
 
-        {/* ABOUT PAGE — footer NOT included */}
+        {}
         <Route path="/about" element={<AboutSection />} />
 
-        {/* SKILLS PAGE — footer NOT included (jaise tum chahti ho) */}
+        {}
         <Route path="/skills" element={<SkillsSection />} />
+
+        {}
+        <Route path="/experience" element={<ExperienceSection />} />
 
       </Routes>
     </>
