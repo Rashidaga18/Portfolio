@@ -1,10 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
-import Footer from "./components/Footer";
 import SkillsSection from "./sections/SkillsSection";
 import ExperienceSection from "./sections/ExperienceSection";
+import ContactSection from "./sections/ContactSection"; 
 
 function App() {
   return (
@@ -32,6 +34,9 @@ function App() {
 
         {}
         <Route path="/experience" element={<ExperienceSection />} />
+
+        {}
+        <Route path="/contact" element={<ContactSection />} /> {/* ✅ ADD THIS */}
 
       </Routes>
     </>

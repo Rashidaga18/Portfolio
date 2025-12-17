@@ -28,6 +28,13 @@ export default function ExperienceSection() {
       desc: "Creating tech content & tutorials.",
     },
     {
+      year: "Dec 2025 – Present",
+      title: "Open Source Contributor",
+      org: "Winter of Code – Social",
+      icon: Code,
+      desc: "Contributing to open-source projects and collaborating with the developer community.",
+    },
+    {
       year: "Sep 2025 – Nov 2025",
       title: "GSSoC Contributor (Second Time)",
       org: "GirlScript Summer of Code",
@@ -74,7 +81,6 @@ export default function ExperienceSection() {
       </p>
 
       <div ref={containerRef} className="relative max-w-5xl mx-auto">
-
         {}
         <div className="absolute left-1/2 top-0 w-1 bg-purple-900/40 h-full -translate-x-1/2" />
 
@@ -84,7 +90,6 @@ export default function ExperienceSection() {
           className="absolute left-1/2 top-0 w-1 bg-purple-500 -translate-x-1/2 shadow-[0_0_15px_#a855f7]"
         />
 
-        {}
         <div className="pt-10">
           {journey.map((item, i) => {
             const Icon = item.icon;
@@ -96,7 +101,6 @@ export default function ExperienceSection() {
                   i % 2 === 0 ? "justify-start" : "justify-end"
                 }`}
               >
-                {}
                 <motion.div
                   initial={{ opacity: 0, y: 40 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -110,7 +114,6 @@ export default function ExperienceSection() {
                   <p className="text-gray-400 mt-2">{item.desc}</p>
                 </motion.div>
 
-                {}
                 <motion.div
                   initial={{ scale: 0 }}
                   whileInView={{ scale: 1 }}
